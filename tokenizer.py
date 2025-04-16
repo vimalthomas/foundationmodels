@@ -81,9 +81,11 @@ def download_file_from_url(file_url: str, output_filename: str):
     """
     similar download function to download train and test jsonl
     """
+   
     response = requests.get(file_url)
-    if response.status_code != 200:
-        raise Exception(f"Failed to download {file_url}")
+    response.raise_for_status()  # Raise error if download fails
+    
     with open(output_filename, "w", encoding="utf-8") as f:
         f.write(response.text)
+    print(f"File successfully downloaded and saved as {output_filename}")
     print(f" Downloaded {output_filename}")
