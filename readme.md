@@ -18,5 +18,15 @@ llm_project/
 
 ├── README.md                 # This file
 
-└── (llm_project.ipynb)              #Jupyter notebooks for  orchestration and hyperparameter tuning
+└── llm_project.py           #Jupyter notebooks convereted py file. 
+
+└── llm_exp.py           #Jupyter notebooks convereted py file used for runnning model experiments.(make sure the corpus.txt, train.jsonl and test.jsonl are already prpesent to run this py file).
+
+
+How to run the project?
+
+Place all the files in a source directory and run the llm_project.py file. This will run and generate the models. Again, if we need to run the experiments, run the llm_exp.py file.
+
+
+T
 
