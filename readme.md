@@ -20,7 +20,7 @@ llm_project/
 
 └── llm_project.py           #Jupyter notebooks convereted py file. 
 
-└── llm_exp.py           #Jupyter notebooks convereted py file used for runnning model experiments.(make sure the corpus.txt, train.jsonl and test.jsonl are already prpesent to run this py file).
+└── llm_experiments.py           #Jupyter notebooks convereted py file used for runnning model experiments.(make sure the corpus.txt, train.jsonl and test.jsonl are already prpesent to run this py file).
 
 
 How to run the project?
