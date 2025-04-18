@@ -28,5 +28,4 @@ How to run the project?
 Place all the files in a source directory and run the llm_project.py file. This will run and generate the models. Again, if we need to run the experiments, run the llm_exp.py file.
 
 
-T
 
